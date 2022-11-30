@@ -40,7 +40,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     background-color: #336699;
-    padding: 6em;
 }
 .section1_left p {
     color: white;
@@ -60,6 +59,9 @@ a:hover {
 .section1 img {
     width: 720px;
     max-height: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media (max-width: 480px) {
     img {
